@@ -6,13 +6,12 @@ using System.Threading.Tasks;
 
 namespace OOPKalitim
 {
-    public class Egitmen:BaseType
+    public sealed class Egitmen:Personel
     {
         public string Brans { get; set; }
         public int BransSeviye { get; set; }
-        public DateTime IsBaslangıcTarihi { get; set; }
-        public DateTime IsBitisTarihi { get; set; }
-        public int IzınGunSayisi { get; set; }
+
+       
 
         public Egitmen()
         {

@@ -12,6 +12,10 @@ namespace OOPKalitim
         public DateTime IsBitisTarihi { get; set; }
         public int IzınGunSayisi { get; set; }
 
+        public Personel()
+        {
+            Console.WriteLine("Personel Nesnesi Yapıcı Metot");
+        }
 
     }
 }

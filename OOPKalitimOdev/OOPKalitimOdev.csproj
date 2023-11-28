@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{25A3BA3C-0EC6-46F8-8F63-1C105AEDB6D8}</ProjectGuid>
+    <ProjectGuid>{CAC53B97-0366-4BC7-BD2A-91D95C07EEAA}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>OOPKalitim</RootNamespace>
-    <AssemblyName>OOPKalitim</AssemblyName>
+    <RootNamespace>OOPKalitimOdev</RootNamespace>
+    <AssemblyName>OOPKalitimOdev</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,13 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BaseType.cs" />
-    <Compile Include="Egitmen.cs" />
-    <Compile Include="Ogrenci.cs" />
-    <Compile Include="Personel.cs" />
+    <Compile Include="baseClass.cs" />
+    <Compile Include="bilgisayar.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Test.cs" />
+    <Compile Include="sanalDataBase.cs" />
+    <Compile Include="televizyon.cs" />
+    <Compile Include="urun.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
